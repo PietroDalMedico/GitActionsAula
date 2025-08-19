@@ -10,7 +10,7 @@ jobs:
   dizer-ola:
  #define qual o tipo da maquina(runner)
  #Maquina fornecida pelo GitHub
-   runs-on: ubunto-latest
+   runs-on: ubuntu-latest
 
   #Define os steps
    steps:
