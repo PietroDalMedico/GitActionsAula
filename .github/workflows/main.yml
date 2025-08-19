@@ -1,0 +1,22 @@
+#Nome do Workflow
+name: Olá Mundo
+
+#Evento que vai chamar o workflow
+on: [push]
+
+#Defini os jobs que seram executados
+jobs:
+  #Nome do jobs
+  dizer-ola:
+ #define qual o tipo da maquina(runner)
+ #Maquina fornecida pelo GitHub
+   runs-on: ubunto-latest
+
+  #Define os steps
+   steps:
+
+   - name: Imprime uma mensagem no console
+     run: echo "Olá Mundo! Essa é a minha primeira Github Action"
+   - name: Imprime outra mensagem
+     run: echo "Até a proxima Automação"
+  
